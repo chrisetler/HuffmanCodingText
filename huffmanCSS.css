@@ -1,0 +1,32 @@
+﻿body {
+}
+#userInput{
+    position:relative;
+    left: 10px;
+    top: -10px;
+}
+
+#streams{
+    position:relative;
+    left:0px;
+    top:1px;
+
+}
+
+#statsBox{
+ 
+
+}
+
+#leftSide, #rightSide{
+    float:left;
+    position:relative;
+    
+
+}
+
+#rightSide{
+    position:relative;
+    top:9px;
+    left:20px;
+}
