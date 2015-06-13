@@ -260,7 +260,7 @@ namespace HuffmanCodingText
             for (int i = 0; i < charCount; i++)
             {
                 double P = (double)nodeP[i] / totalChars;
-                ent += P * Math.Log(P);
+                ent += P * Math.Log(P,2);
             }
             entropy = -ent;
         }
